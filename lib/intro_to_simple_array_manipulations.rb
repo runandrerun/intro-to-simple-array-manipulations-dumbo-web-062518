@@ -36,8 +36,9 @@ def using_insert(array, element)
   return inserted
 end
 
-def using_uniq
-  
+def using_uniq(array)
+  unique = array.uniq
+  return unique
 end
 
 def using_flatten
