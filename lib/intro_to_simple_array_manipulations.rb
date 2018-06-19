@@ -41,8 +41,9 @@ def using_uniq(array)
   return unique
 end
 
-def using_flatten
-  
+def using_flatten(array)
+  flattened = array.flatten
+  return flattened
 end
 
 def using_delete
